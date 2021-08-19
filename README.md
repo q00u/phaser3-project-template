@@ -30,7 +30,7 @@ After starting the development server with `npm start`, you can edit any files i
 
 You can write modern ES6+ JavaScript and Babel will transpile it to a version of JavaScript that you want your project to support. The targeted browsers are set in the `.babelrc` file and the default currently targets all browsers with total usage over "0.25%" but excludes IE11 and Opera Mini.
 
-```
+```json
 "browsers": [
  ">0.25%",
  "not ie 11",

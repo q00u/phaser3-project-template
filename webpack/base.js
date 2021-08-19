@@ -6,7 +6,9 @@ module.exports = {
   mode: 'development',
   devtool: 'eval-source-map',
   devServer: {
-    contentBase: path.join(__dirname, '../dist'),
+    static: {
+      directory: path.resolve(__dirname, "../dist"),
+    }
   },
   module: {
     rules: [
